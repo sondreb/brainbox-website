@@ -1,34 +1,34 @@
 :host {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 1em;
 }
 
 .app-icon-large {
-    width: 196px;
-    height: 196px;
-
+  width: 196px;
+  height: 196px;
+  border-radius: 25px;
 }
 
 .chips {
-    text-align: center;
+  text-align: center;
 }
 
 h1 {
-    margin: 0.3em 0 0.2em 0;
+  margin: 0.3em 0 0.2em 0;
 }
 
 h2 {
-    text-align: center;
+  text-align: center;
 }
 
 .topic-view {
-    text-align: center;
+  text-align: center;
 }
 
 .screenshot {
-    width: 100%;
-    margin-top: 1em;
+  width: 100%;
+  margin-top: 1em;
 }
