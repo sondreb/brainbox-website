@@ -25,6 +25,7 @@ export class DataService {
     },
     notes: {
       name: 'Notes',
+      icon: 'notes.png',
       description: 'A feature rich nostr client.',
       tags: ['free', 'web', 'nostr'],
       link: 'https://notes.blockcore.net',
