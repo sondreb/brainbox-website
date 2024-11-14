@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 
 export interface App {
+  icon?: string;
   name: string;
   description: string;
   tags: string[];
@@ -38,6 +39,7 @@ export class DataService {
       tags: ['free', 'web', 'photo'],
     },
     ariton: {
+      icon: 'ariton.png',
       name: 'Ariton',
       description: 'Community Super App',
       tags: ['paid', 'web', 'community'],

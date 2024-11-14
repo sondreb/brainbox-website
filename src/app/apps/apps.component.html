@@ -3,13 +3,18 @@
 <div class="topic-container">
   @for(app of data.apps | keyvalue; track app.key) {
   <a class="topic" [routerLink]="['/apps', app.key]">
-    <h4>{{ app.value.name }}</h4>
-    <p class="help-abstract">{{ app.value.description }}</p>
-    <div class="chips">
-      @if (app.value.tags) { @for(tag of app.value.tags; track tag) {
-      <span class="chip">{{ tag }}</span>
-      } }
+    <div class="topic-header">
+      <img class="app-icon" [src]="'/assets/icons/' + app.value.icon" />
+      <div class="topic-name">
+        <h4>{{ app.value.name }}</h4>
+        <div class="chips">
+          @if (app.value.tags) { @for(tag of app.value.tags; track tag) {
+          <span class="chip">{{ tag }}</span>
+          } }
+        </div>
+      </div>
     </div>
+    <p class="help-abstract">{{ app.value.description }}</p>
   </a>
   }
 </div>

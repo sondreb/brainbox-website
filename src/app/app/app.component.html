@@ -1,19 +1,19 @@
-<h3>{{ app.name }}</h3>
+<img class="app-icon-large" [src]="'/assets/icons/' + app.icon" />
+
+<h1>{{ app.name }}</h1>
+
+<h2>{{ app.description }}</h2>
 
 <div class="topic-view">
-  <p>{{ app.description }}</p>
+  @if (app.link) {
+  <a class="app-link" [href]="app.link" target="_blank"><button>Open App</button></a>
+  }
 
   <div class="chips">
     @if (app.tags) { @for(tag of app.tags; track tag) {
     <span class="chip">{{ tag }}</span>
     } }
   </div>
-  @if (app.link) {
-
-  <a [href]="app.link" target="_blank"
-    ><button>Open App</button></a
-  >
-  }
 
   <div class="help-body" [innerHTML]="sanitizeHtml(app.body)"></div>
 </div>
