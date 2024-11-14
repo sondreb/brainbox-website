@@ -7,6 +7,7 @@ export interface App {
   tags: string[];
   link?: string;
   screenshots?: string[];
+  source?: string;
 }
 
 @Injectable({
@@ -44,6 +45,7 @@ export class DataService {
       tags: ['free', 'web', 'photo'],
       screenshots: ['blur2.webp', 'blur3.webp', 'blur1.webp'],
       link: 'https://blur.brainbox.no',
+      source: 'https://github.com/sondreb/blur',
     },
     ariton: {
       name: 'Ariton',

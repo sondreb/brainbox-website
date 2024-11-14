@@ -9,6 +9,11 @@
   <a class="app-link" [href]="app.link" target="_blank"
     ><button>Open App</button></a
   >
+  } @if (app.source) {
+    &nbsp;
+  <a class="app-link" [href]="app.source" target="_blank"
+    ><button class="light-button">Source</button></a
+  >
   }
 
   <div class="chips">
