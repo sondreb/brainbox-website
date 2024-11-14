@@ -30,6 +30,7 @@ export class DataService {
       description: 'A feature rich nostr client.',
       tags: ['free', 'web', 'nostr'],
       link: 'https://notes.blockcore.net',
+      source: 'https://github.com/block-core/blockcore-notes',
     },
     basilar: {
       name: 'Basliar',
@@ -53,6 +54,7 @@ export class DataService {
       description: 'Community Super App',
       tags: ['paid', 'web', 'community'],
       link: 'https://ariton.app',
+      source: 'https://github.com/block-core/ariton',
     },
   };
 
