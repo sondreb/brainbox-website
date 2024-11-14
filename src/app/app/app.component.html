@@ -1,0 +1,19 @@
+<h3>{{ app.name }}</h3>
+
+<div class="topic-view">
+  <p>{{ app.description }}</p>
+
+  <div class="chips">
+    @if (app.tags) { @for(tag of app.tags; track tag) {
+    <span class="chip">{{ tag }}</span>
+    } }
+  </div>
+  @if (app.link) {
+
+  <a [href]="app.link" target="_blank"
+    ><button>Open App</button></a
+  >
+  }
+
+  <div class="help-body" [innerHTML]="sanitizeHtml(app.body)"></div>
+</div>

@@ -1,0 +1,132 @@
+<div class="brainbox-header">
+  <nav>
+    <ul>
+      <li>
+        <a class="logo-link" [routerLink]="['/']">
+          <div class="ariton-logo-container">
+            <div class="ariton-logo" alt="Brainbox logo"></div>
+            <div class="ariton-text" alt="Brainbox logo">Brainbox</div>
+          </div>
+        </a>
+      </li>
+
+      <li class="hide-tiny">
+        <a class="menu-link" [routerLink]="['/apps']">Apps</a>
+      </li>
+      <li class="hide-small">
+        <a class="menu-link" [routerLink]="['/about']">About</a>
+      </li>
+      <li class="toggle">
+        <a href="#" (click)="theme.toggle()" onclick="event.preventDefault();" class="theme-toggle" #themeToggle>
+          <svg width="30" height="30" id="light-icon" [ngClass]="{ 'hidden': theme.dark() }">
+            <circle cx="15" cy="15" r="6" fill="currentColor" />
+
+            <line
+              id="ray"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              x1="15"
+              y1="1"
+              x2="15"
+              y2="4"
+            ></line>
+
+            <use href="#ray" transform="rotate(45 15 15)" />
+            <use href="#ray" transform="rotate(90 15 15)" />
+            <use href="#ray" transform="rotate(135 15 15)" />
+            <use href="#ray" transform="rotate(180 15 15)" />
+            <use href="#ray" transform="rotate(225 15 15)" />
+            <use href="#ray" transform="rotate(270 15 15)" />
+            <use href="#ray" transform="rotate(315 15 15)" />
+          </svg>
+          <svg width="30" height="30" id="dark-icon" [ngClass]="{ 'hidden': theme.light() }">
+            <path
+              fill="currentColor"
+              d="
+            M 23, 5
+            A 12 12 0 1 0 23, 25
+            A 12 12 0 0 1 23, 5"
+            />
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+<div class="brainbox-content">
+  <router-outlet />
+</div>
+
+<div class="brainbox-footer">
+  <div class="ariton-logo-footer hide-tiny" alt="Ariton logo"></div>
+  <span>Crafted with ❤️</span>
+</div>
+
+<!-- <header>
+  <div class="header-container">
+    <nav>
+      <ul>
+        <li>
+          <a [routerLink]="['/']">
+            <div class="ariton-logo-container">
+              <div class="ariton-logo" alt="Ariton logo"></div>
+              <div class="ariton-text" alt="Ariton logo">Brainbox</div>
+            </div>
+          </a>
+        </li>
+
+        <li class="hide-tiny">
+          <a class="menu-link" href="https://ariton.app">Apps</a>
+        </li>
+        <li class="hide-small">
+          <a class="menu-link" href="https://alpha.ariton.app">About</a>
+        </li>
+        <li class="toggle">
+          <a href="#" onclick="event.preventDefault();" class="theme-toggle">
+            <svg width="30" height="30" id="light-icon">
+              <circle cx="15" cy="15" r="6" fill="currentColor" />
+
+              <line
+                id="ray"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                x1="15"
+                y1="1"
+                x2="15"
+                y2="4"
+              ></line>
+
+              <use href="#ray" transform="rotate(45 15 15)" />
+              <use href="#ray" transform="rotate(90 15 15)" />
+              <use href="#ray" transform="rotate(135 15 15)" />
+              <use href="#ray" transform="rotate(180 15 15)" />
+              <use href="#ray" transform="rotate(225 15 15)" />
+              <use href="#ray" transform="rotate(270 15 15)" />
+              <use href="#ray" transform="rotate(315 15 15)" />
+            </svg>
+            <svg width="30" height="30" id="dark-icon">
+              <path
+                fill="currentColor"
+                d="
+              M 23, 5
+              A 12 12 0 1 0 23, 25
+              A 12 12 0 0 1 23, 5"
+              />
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header> -->
+<!-- <main>
+  <router-outlet />
+</main> -->
+
+<!-- <div class="download-container">
+  <div class="ariton-logo-footer hide-tiny" alt="Ariton logo"></div>
+  <span class="hide-small">Crafted with ❤️</span>
+</div> -->
