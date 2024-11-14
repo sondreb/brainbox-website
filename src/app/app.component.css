@@ -42,13 +42,13 @@
 }
 
 .brainbox-content {
-  align-content: center;
-  align-content: center;
+  /* align-content: center; */
   margin-top: 90px;
   /* margin-bottom: 120px; */
   box-sizing: border-box;
   flex-grow: 2;
   width: 600px;
+  display: flex;
 }
 
 .brainbox-footer {
