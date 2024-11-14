@@ -27,6 +27,22 @@ export class DataService {
       tags: ['free', 'web', 'nostr'],
       link: 'https://notes.blockcore.net',
     },
+    basilar: {
+      name: 'Basliar',
+      description: 'Tree tasks and no more. Plan one day ahead. Tomorrow is a new day.',
+      tags: ['paid', 'web', 'tasks'],
+    },
+    blur: {
+      name: 'Blur',
+      description: 'Blurs any photos. Useful for backgrounds, wallpapers and more.',
+      tags: ['free', 'web', 'photo'],
+    },
+    ariton: {
+      name: 'Ariton',
+      description: 'Community Super App',
+      tags: ['paid', 'web', 'community'],
+      link: 'https://ariton.app',
+    },
   };
 
   constructor() {}
