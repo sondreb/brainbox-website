@@ -1,9 +1,10 @@
 :host {
   display: flex;
   flex-direction: column;
-  /* max-width: 600px;
-  min-width: 600px; */
   width: 600px;
+  box-sizing: border-box;
+  justify-self: center;
+  min-height: 100vh;
 }
 
 @media only screen and (max-width: 614px) {
@@ -29,6 +30,82 @@
   width: 100%;
 }
 
+.brainbox-header {
+  position: static;
+  position: fixed;
+  top: 0;
+  /* padding: 1em; */
+  padding: 0 1em;
+  border-bottom: 1px solid var(--header-border);
+  background-color: var(--background-color);
+  width: 600px;
+  box-sizing: border-box;
+  height: 90px;
+  display: flex;
+  z-index: 1000;
+  flex-grow: 0;
+}
+
+.brainbox-content {
+  align-content: center;
+  align-content: center;
+  margin-top: 90px;
+  /* margin-bottom: 120px; */
+  box-sizing: border-box;
+  flex-grow: 2;
+}
+
+.brainbox-footer {
+  margin-top: 1em;
+  border-top: 1px solid var(--header-border);
+  background-color: var(--background-color);
+  padding-top: 1em;
+  width: 600px;
+  box-sizing: border-box;
+  justify-items: right;
+  display: flex;
+  padding: 0 1em;
+  z-index: 500;
+}
+
+.brainbox-footer > * {
+  /* flex: 1;
+  flex-grow: 1;
+  box-sizing: border-box;
+  justify-content: center; */
+  align-items: center;
+  /* justify-items: center; */
+}
+
+.brainbox-footer > :first-child {
+  /* flex: 1; */
+  /* justify-content: flex-start;
+  align-items: center;
+  display: flex; */
+  width: 32px;
+}
+
+.brainbox-footer > :last-child {
+  /* flex: 1; */
+  /* justify-content: flex-end;
+  align-items: center;
+  display: flex; */
+  display: flex;
+  align-items: center;
+  width: 32px;
+  height: 48px;
+}
+
+.footer-text {
+  flex-grow: 2 !important;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  display: flex;
+  font-size: 0.8em;
+}
+
+/* 
 .brainbox-footer {
   margin-top: 2em;
   display: flex;
@@ -51,13 +128,12 @@
   color: var(--header-text);
   padding: 15px 20px;
   z-index: 1000;
-  /* transition: background-color 0.4s, color 0.4s; */
   border-bottom: 1px solid var(--header-border);
-}
+} */
 
-.brainbox-content {
+/* .brainbox-content {
   padding-top: 1em;
-}
+} */
 
 .logo-link:hover {
   text-decoration: none;
