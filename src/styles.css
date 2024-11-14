@@ -102,11 +102,11 @@ button {
 
 a {
   color: var(--text-color);
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a.menu-link {
