@@ -58,3 +58,44 @@
 .hero-container button {
   margin-right: 0.2em;
 }
+
+.hero-screenshot {
+  width: 100%;
+  border-radius: 4px;
+  transform: perspective(1000px) rotateX(10deg) rotateY(-10deg) rotate(-4deg)
+    translateX(-30px);
+  box-shadow: var(--box-shadow);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  /* transform-origin: left center; */
+}
+
+.hero-screenshot:hover {
+  transform: perspective(1000px) rotateX(5deg) rotateY(-5deg) rotate(-1deg)
+    scale(1.7) translateX(-80px);
+  box-shadow: var(--box-shadow-hover);
+}
+
+@media only screen and (max-width: 600px) {
+
+
+  .hero-container {
+    flex-direction: column;
+  }
+
+  .hero-image {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+  }
+
+  .hero-screenshot {
+    width: 90%;
+    transform: none;
+  }
+
+  .hero-screenshot:hover {
+    transform: none;
+    /* transform: skew(0deg) rotate(-1deg) scale(1.1) translateX(0px); */
+  }
+}

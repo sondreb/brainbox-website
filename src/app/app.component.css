@@ -7,11 +7,6 @@
   min-height: 100vh;
 }
 
-@media only screen and (max-width: 614px) {
-  :host {
-    width: 100%;
-  }
-}
 
 .toggle {
   flex-grow: 10 !important;
@@ -53,6 +48,7 @@
   /* margin-bottom: 120px; */
   box-sizing: border-box;
   flex-grow: 2;
+  width: 600px;
 }
 
 .brainbox-footer {
@@ -137,4 +133,24 @@
 
 .logo-link:hover {
   text-decoration: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+  :host {
+    width: 100%;
+  }
+
+  .brainbox-content {
+    width: 100%;
+  }
+
+  .brainbox-header {
+    width: 100%;
+  }
+
+  .brainbox-footer {
+    width: 100%;
+  }
+
 }
