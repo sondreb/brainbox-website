@@ -20,6 +20,15 @@ h1 {
     margin: 0.3em 0 0.2em 0;
 }
 
+h2 {
+    text-align: center;
+}
+
 .topic-view {
     text-align: center;
+}
+
+.screenshot {
+    width: 100%;
+    margin-top: 1em;
 }

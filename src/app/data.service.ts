@@ -6,6 +6,7 @@ export interface App {
   description: string;
   tags: string[];
   link?: string;
+  screenshots?: string[];
 }
 
 @Injectable({
@@ -30,17 +31,22 @@ export class DataService {
     },
     basilar: {
       name: 'Basliar',
-      description: 'Tree tasks and no more. Plan one day ahead. Tomorrow is a new day.',
+      description:
+        'Tree tasks and no more. Plan one day ahead. Tomorrow is a new day.',
       tags: ['paid', 'web', 'tasks'],
     },
     blur: {
       name: 'Blur',
-      description: 'Blurs any photos. Useful for backgrounds, wallpapers and more.',
+      icon: 'blur.png',
+      description:
+        'Blurs any photos. Useful for backgrounds, wallpapers and more.',
       tags: ['free', 'web', 'photo'],
+      screenshots: ['blur2.webp', 'blur3.webp', 'blur1.webp'],
+      link: 'https://blur.brainbox.no',
     },
     ariton: {
-      icon: 'ariton.png',
       name: 'Ariton',
+      icon: 'ariton.png',
       description: 'Community Super App',
       tags: ['paid', 'web', 'community'],
       link: 'https://ariton.app',

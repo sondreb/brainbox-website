@@ -6,7 +6,9 @@
 
 <div class="topic-view">
   @if (app.link) {
-  <a class="app-link" [href]="app.link" target="_blank"><button>Open App</button></a>
+  <a class="app-link" [href]="app.link" target="_blank"
+    ><button>Open App</button></a
+  >
   }
 
   <div class="chips">
@@ -15,5 +17,13 @@
     } }
   </div>
 
+  @if (app.screenshots) { @for(url of app.screenshots; track url) {
+  <img
+    [src]="'/assets/screenshots/' + id + '/' + url"
+    class="screenshot"
+    loading="lazy"
+    decoding="async"
+  />
+  } }
   <div class="help-body" [innerHTML]="sanitizeHtml(app.body)"></div>
 </div>
