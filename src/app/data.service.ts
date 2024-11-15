@@ -8,6 +8,7 @@ export interface App {
   link?: string;
   screenshots?: string[];
   source?: string;
+  body?: string;
 }
 
 @Injectable({
@@ -55,6 +56,15 @@ export class DataService {
       tags: ['paid', 'web', 'community'],
       link: 'https://ariton.app',
       source: 'https://github.com/block-core/ariton',
+    },
+    dreams: {
+      name: 'Dreams',
+      icon: 'dreams.jpg',
+      description: 'Dreams Journaling',
+      body: 'An app that helps users log and analyze their dreams, offering insights and identifying recurring themes or symbols.',
+      tags: ['free', 'web', 'dreams'],
+      link: 'https://dreams.brainbox.no',
+      source: 'https://github.com/sondreb/dreams',
     },
   };
 
