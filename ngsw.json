@@ -1,0 +1,115 @@
+{
+  "configVersion": 1,
+  "timestamp": 1731671028129,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/index.html",
+        "/main-FVQTO7TO.js",
+        "/manifest.webmanifest",
+        "/polyfills-FFHMD2TL.js",
+        "/styles-5VQRNPMQ.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/brainbox-logo-dark.webp",
+        "/assets/brainbox-logo-light.webp",
+        "/assets/brainbox-logo.png",
+        "/assets/brainbox-logo.webp",
+        "/assets/brainbox-social-x.png",
+        "/assets/brainbox-social.jpg",
+        "/assets/brainbox-social.png",
+        "/assets/brainbox.png",
+        "/assets/brainbox.webp",
+        "/assets/favicon.webp",
+        "/assets/icons/ariton.png",
+        "/assets/icons/blur.png",
+        "/assets/icons/dreams.jpg",
+        "/assets/icons/notes.png",
+        "/assets/screenshots/blur/blur1.webp",
+        "/assets/screenshots/blur/blur2.webp",
+        "/assets/screenshots/blur/blur3.webp",
+        "/assets/sondre.jpg",
+        "/icons/icon-128x128.png",
+        "/icons/icon-144x144.png",
+        "/icons/icon-152x152.png",
+        "/icons/icon-192x192.png",
+        "/icons/icon-384x384.png",
+        "/icons/icon-512x512.png",
+        "/icons/icon-72x72.png",
+        "/icons/icon-96x96.png",
+        "/icons/icon.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/brainbox-logo-dark.webp": "a32716ce1739f7c0e991cdf02c9226a64c9bacfe",
+    "/assets/brainbox-logo-light.webp": "9c8667390d842baab123455093c5a0017d7886f4",
+    "/assets/brainbox-logo.png": "67b0a6618bac82b2668cb91a1cca4efafd1739f6",
+    "/assets/brainbox-logo.webp": "72f13fbd399effc99b1d6508deff295c98f075c2",
+    "/assets/brainbox-social-x.png": "92a5f04457cc8226ee7f155bab17161d080e9f00",
+    "/assets/brainbox-social.jpg": "8f9d5501de5849b5a854df64e463ae1ec4675068",
+    "/assets/brainbox-social.png": "abd0bfe25769f341cb0522b18372cf3421ebfc02",
+    "/assets/brainbox.png": "cd30644be82d61d3b059c68195850082f58c5f96",
+    "/assets/brainbox.webp": "ba249236c0ea346df66647e83fe120599c0d17f7",
+    "/assets/favicon.webp": "a32716ce1739f7c0e991cdf02c9226a64c9bacfe",
+    "/assets/icons/ariton.png": "fa0e3f3f37612bc32ed8de6be08b04e14ba09132",
+    "/assets/icons/blur.png": "d89404d2d232eb3a08e68e52a0ca8d9e7b0ca8a3",
+    "/assets/icons/dreams.jpg": "01d46a4b2cf5ec1ce891fd7d857b80f98c61f85b",
+    "/assets/icons/notes.png": "617ea1052b5c3daaf74cb23f476a2d1229e5ede8",
+    "/assets/screenshots/blur/blur1.webp": "448637cefbfa4e9862fddfdf1229cba83b0af8fb",
+    "/assets/screenshots/blur/blur2.webp": "f8abd453a9bf990d2e10d0abf6b1f048265ac785",
+    "/assets/screenshots/blur/blur3.webp": "0f25a6f979910590a0a69afa7073e1befb7c51cb",
+    "/assets/sondre.jpg": "f63819a339120c3fb725948b06f5973edc3813dc",
+    "/icons/icon-128x128.png": "cb061c1dd6eb0e84118c05ca3eca64a62adab07c",
+    "/icons/icon-144x144.png": "a2826e31d15df59b0c19c7d9dc1b5e710b516998",
+    "/icons/icon-152x152.png": "03ba604eb16103eb1f777b7687393dd3f20e6ff2",
+    "/icons/icon-192x192.png": "85f64786388d01e1e4e69ac2cf818c3fa1832b3e",
+    "/icons/icon-384x384.png": "a740b8bd36bec662b184fcb6ab8ea3eb733f43ce",
+    "/icons/icon-512x512.png": "a55d17b0ca7b3a48c6bf5329f66356a5f11fb74c",
+    "/icons/icon-72x72.png": "c77e7e433aa0a027388da5dca966c633ddbcae56",
+    "/icons/icon-96x96.png": "8559dd26138c0bacbb75e2f8b322c0c2a24ff18e",
+    "/icons/icon.png": "b2070761d5d4dc65896f036507c363cea481d9fe",
+    "/index.html": "a4958b9d2c627b7a2c4453556e82ed348582cdbd",
+    "/main-FVQTO7TO.js": "02448ad68bc25e05bf7e4be76c8864a7c4d139de",
+    "/manifest.webmanifest": "2d5d1d9df6821bba8d8acfb5ef5826e833fd089d",
+    "/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
+    "/styles-5VQRNPMQ.css": "a74acefec12763fff61f314fa563119fc8c17a91"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
