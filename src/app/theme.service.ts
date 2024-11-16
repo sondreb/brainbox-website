@@ -17,23 +17,27 @@ export class ThemeService {
       this.activate();
     });
 
-    const darkModeMediaQuery = window.matchMedia(
-      '(prefers-color-scheme: dark)'
-    );
-    let darkMode = darkModeMediaQuery.matches;
+    // First check local storage
+    const savedTheme = localStorage.getItem('color-scheme');
+    if (savedTheme) {
+      this.theme.set(savedTheme);
+    } else {
+      // If no saved theme, check system preference
+      const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+      let darkMode = darkModeMediaQuery.matches;
 
-    if (darkMode) {
-      this.theme.set('dark');
-    }
-
-    darkModeMediaQuery.addEventListener('change', (event) => {
-      darkMode = event.matches;
       if (darkMode) {
         this.theme.set('dark');
-      } else {
-        this.theme.set('light');
       }
-    });
+
+      darkModeMediaQuery.addEventListener('change', (event) => {
+        darkMode = event.matches;
+        // Only update theme if there's no saved preference
+        if (!localStorage.getItem('color-scheme')) {
+          this.theme.set(darkMode ? 'dark' : 'light');
+        }
+      });
+    }
   }
 
   activate() {
@@ -60,10 +64,8 @@ export class ThemeService {
   }
 
   toggle() {
-    if (this.theme() === 'light') {
-      this.theme.set('dark');
-    } else {
-      this.theme.set('light');
-    }
+    const newTheme = this.theme() === 'light' ? 'dark' : 'light';
+    this.theme.set(newTheme);
+    localStorage.setItem('color-scheme', newTheme);
   }
 }
