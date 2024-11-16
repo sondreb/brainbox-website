@@ -22,8 +22,11 @@ export class DataService {
   apps: { [key: string]: App } = {
     moments: {
       name: 'Moments',
+      icon: 'moments.jpg',
       description: 'A simple collage app.',
       tags: ['paid', 'desktop', 'photo'],
+      link: 'https://moments.brainbox.no',
+      source: 'https://github.com/sondreb/Moments',
     },
     notes: {
       name: 'Notes',
