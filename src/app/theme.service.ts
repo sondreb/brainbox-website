@@ -39,13 +39,24 @@ export class ThemeService {
   activate() {
     console.log('Theme is now:', this.theme);
 
-    if (this.theme() === 'dark') {
+    const backgroundColor = this.dark() ? 'rgb(13, 12, 12)' : 'rgb(255, 255, 255)';
+
+    if (this.dark()) {
       document.documentElement.setAttribute('data-theme', 'dark');
       document.documentElement.style.setProperty('color-scheme', 'dark');
     } else {
       document.documentElement.removeAttribute('data-theme');
       document.documentElement.style.setProperty('color-scheme', 'light');
     }
+
+    // Update theme-color meta tag
+    let metaThemeColor = document.querySelector('meta[name="theme-color"]');
+    if (!metaThemeColor) {
+      metaThemeColor = document.createElement('meta');
+      metaThemeColor.setAttribute('name', 'theme-color');
+      document.head.appendChild(metaThemeColor);
+    }
+    metaThemeColor.setAttribute('content', backgroundColor);
   }
 
   toggle() {
