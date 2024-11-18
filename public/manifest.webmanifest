@@ -1,6 +1,8 @@
 {
   "name": "Brainbox",
   "short_name": "Brainbox",
+  "author": "SondreB",
+  "description": "A box full of apps",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
   "display": "standalone",
