@@ -72,7 +72,7 @@ export class DataService {
       link: 'https://dreams.brainbox.no',
       source: 'https://github.com/sondreb/dreams',
     },
-    giaanet: {
+    gaianet: {
       name: 'Gaianet',
       icon: 'gaianet.png',
       description: 'Gaianet Database App',
@@ -80,6 +80,14 @@ export class DataService {
       tags: ['free', 'web', 'regeneration', 'database'],
       link: 'https://gaianet.brainbox.no',
       source: 'https://github.com/sondreb/gaianet',
+    },
+    bsn: {
+      name: 'Blockchain Social Network',
+      icon: 'bsn.png',
+      description: 'Social Network on Stellar Blockchain',
+      tags: ['free', 'web', 'blockchain', 'social'],
+      link: 'https://bsn.brainbox.no',
+      source: 'https://github.com/sondreb/bsn',
     },
   };
 
