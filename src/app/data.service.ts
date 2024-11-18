@@ -69,6 +69,15 @@ export class DataService {
       link: 'https://dreams.brainbox.no',
       source: 'https://github.com/sondreb/dreams',
     },
+    giaanet: {
+      name: 'Gaianet',
+      icon: 'gaianet.png',
+      description: 'Gaianet Database App',
+      body: 'An app that you can install on your device to have quick access to the amazing Gaianet database.',
+      tags: ['free', 'web', 'regeneration', 'database'],
+      link: 'https://gaianet.brainbox.no',
+      source: 'https://github.com/sondreb/gaianet',
+    },
   };
 
   constructor() {}
