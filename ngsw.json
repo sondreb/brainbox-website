@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1731944064790,
+  "timestamp": 1731947595787,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -12,7 +12,7 @@
       },
       "urls": [
         "/index.html",
-        "/main-IV72RHCZ.js",
+        "/main-Q6VYJKUY.js",
         "/manifest.webmanifest",
         "/polyfills-FFHMD2TL.js",
         "/styles-5VQRNPMQ.css"
@@ -39,6 +39,7 @@
         "/assets/favicon.webp",
         "/assets/icons/ariton.png",
         "/assets/icons/blur.png",
+        "/assets/icons/daily.png",
         "/assets/icons/dreams.jpg",
         "/assets/icons/gaianet.png",
         "/assets/icons/moments.jpg",
@@ -74,6 +75,7 @@
     "/assets/favicon.webp": "a32716ce1739f7c0e991cdf02c9226a64c9bacfe",
     "/assets/icons/ariton.png": "fa0e3f3f37612bc32ed8de6be08b04e14ba09132",
     "/assets/icons/blur.png": "d89404d2d232eb3a08e68e52a0ca8d9e7b0ca8a3",
+    "/assets/icons/daily.png": "e8f146b69afa195a685373a6735b723106ab9323",
     "/assets/icons/dreams.jpg": "01d46a4b2cf5ec1ce891fd7d857b80f98c61f85b",
     "/assets/icons/gaianet.png": "7b552a8fcc9b1a9ac4b3ac54c6ee1fcd1e473abb",
     "/assets/icons/moments.jpg": "b22b763acf17b3405e0dd2dcc24b20f141832c7d",
@@ -91,8 +93,8 @@
     "/icons/icon-72x72.png": "c77e7e433aa0a027388da5dca966c633ddbcae56",
     "/icons/icon-96x96.png": "8559dd26138c0bacbb75e2f8b322c0c2a24ff18e",
     "/icons/icon.png": "b2070761d5d4dc65896f036507c363cea481d9fe",
-    "/index.html": "dda5316283663bb746230ad97ca82e6e24bf5f91",
-    "/main-IV72RHCZ.js": "35f08fce67bfaeedcb10ef4a3c37692ddfc0894d",
+    "/index.html": "6974bac33e20eccbff73dc26da430117917deece",
+    "/main-Q6VYJKUY.js": "940c6270360663a7c00bf21997f7f0d64ec0eb59",
     "/manifest.webmanifest": "626af1c4a9d1a612b9678827161adda1b9023db7",
     "/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
     "/styles-5VQRNPMQ.css": "a74acefec12763fff61f314fa563119fc8c17a91"
