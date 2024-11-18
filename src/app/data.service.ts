@@ -36,11 +36,14 @@ export class DataService {
       link: 'https://notes.blockcore.net',
       source: 'https://github.com/block-core/blockcore-notes',
     },
-    basilar: {
-      name: 'Basliar',
+    daily: {
+      name: 'Daily',
+      icon: 'daily.png',
       description:
         'Tree tasks and no more. Plan one day ahead. Tomorrow is a new day.',
       tags: ['paid', 'web', 'tasks'],
+      link: 'https://daily.brainbox.no',
+      source: 'https://github.com/sondreb/daily',
     },
     blur: {
       name: 'Blur',
