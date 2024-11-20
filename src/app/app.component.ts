@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, ViewChild, ElementRef, AfterViewInit, inject } from '@angular/core';
 import { RouterModule, RouterOutlet } from '@angular/router';
 import { ThemeService } from './theme.service';
+import { SwUpdate } from '@angular/service-worker';
 
 @Component({
   selector: 'app-root',
@@ -11,11 +12,24 @@ import { ThemeService } from './theme.service';
   styleUrl: './app.component.css',
 })
 export class AppComponent implements AfterViewInit {
-  // @ViewChild('themeToggle') toggleButton!: ElementRef;
-  // @ViewChild('screenshotLight') screenshotLight!: ElementRef;
-  // @ViewChild('screenshotDark') screenshotDark!: ElementRef;
-
   theme = inject(ThemeService);
+  swUpdate = inject(SwUpdate);
+
+  constructor() {
+    if (this.swUpdate.isEnabled) {
+      this.swUpdate.versionUpdates.subscribe(event => {
+        if (event.type === 'VERSION_READY') {
+          // Reload the page to update to the latest version
+          window.location.reload();
+        }
+      });
+      
+      // Optional: Check for updates every 60 seconds
+      setInterval(() => {
+        this.swUpdate.checkForUpdate();
+      }, 60000);
+    }
+  }
 
   ngAfterViewInit() {
     // const lightIcon = document.getElementById('light-icon');
