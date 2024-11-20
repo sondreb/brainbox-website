@@ -89,6 +89,14 @@ export class DataService {
       link: 'https://bsn.brainbox.no',
       source: 'https://github.com/sondreb/bsn',
     },
+    polytalk: {
+      name: 'Polytalk',
+      icon: 'polytalk.png',
+      description: 'Learn the basics of every language in the world',
+      tags: ['free', 'web', 'language'],
+      link: 'https://polytalk.brainbox.no',
+      source: 'https://github.com/sondreb/polytalk',
+    },
   };
 
   constructor() {}
