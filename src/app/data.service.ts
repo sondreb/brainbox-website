@@ -94,7 +94,7 @@ export class DataService {
       icon: 'polytalk.png',
       description: 'Learn the basics of every language in the world',
       tags: ['free', 'web', 'language'],
-      link: 'https://polytalk.brainbox.no',
+      link: 'https://polytalk.me',
       source: 'https://github.com/sondreb/polytalk',
     },
   };
