@@ -13,32 +13,32 @@
   },
   "shortcuts": [
     {
-      "name": "Apps",
-      "url": "/apps",
-      "icons": [
-        {
-          "src": "icons/icon-192x192.png",
-          "sizes": "192x192"
-        }
-      ]
-    },
-    {
       "name": "Ariton",
       "url": "/apps/ariton",
       "icons": [
         {
           "src": "assets/icons/ariton.png",
-          "sizes": "192x192"
+          "sizes": "312x309"
         }
       ]
     },
     {
-      "name": "Blur",
-      "url": "/apps/blur",
+      "name": "Polytalk",
+      "url": "/apps/polytalk",
       "icons": [
         {
-          "src": "assets/icons/blur.png",
-          "sizes": "192x192"
+          "src": "assets/icons/polytalk.png",
+          "sizes": "1024x1024"
+        }
+      ]
+    },
+    {
+      "name": "Blockcore Notes",
+      "url": "/apps/notes",
+      "icons": [
+        {
+          "src": "assets/icons/notes.png",
+          "sizes": "256x256"
         }
       ]
     },
@@ -53,61 +53,11 @@
       ]
     },
     {
-      "name": "Daily",
-      "url": "/apps/daily",
+      "name": "More apps...",
+      "url": "/apps",
       "icons": [
         {
-          "src": "assets/icons/daily.png",
-          "sizes": "192x192"
-        }
-      ]
-    },
-    {
-      "name": "Dreams",
-      "url": "/apps/dreams",
-      "icons": [
-        {
-          "src": "assets/icons/dreams.jpg",
-          "sizes": "192x192"
-        }
-      ]
-    },
-    {
-      "name": "Gaianet",
-      "url": "/apps/gaianet",
-      "icons": [
-        {
-          "src": "assets/icons/gaianet.png",
-          "sizes": "192x192"
-        }
-      ]
-    },
-    {
-      "name": "Moments",
-      "url": "/apps/moments",
-      "icons": [
-        {
-          "src": "assets/icons/moment.jpg",
-          "sizes": "192x192"
-        }
-      ]
-    },
-    {
-      "name": "Blockcore Notes",
-      "url": "/apps/notes",
-      "icons": [
-        {
-          "src": "assets/icons/notes.png",
-          "sizes": "192x192"
-        }
-      ]
-    },
-    {
-      "name": "Polytalk",
-      "url": "/apps/polytalk",
-      "icons": [
-        {
-          "src": "assets/icons/polytalk.png",
+          "src": "icons/icon-192x192.png",
           "sizes": "192x192"
         }
       ]
@@ -117,50 +67,42 @@
     {
       "src": "icons/icon-72x72.png",
       "sizes": "72x72",
-      "type": "image/png",
-      "purpose": "maskable any"
+      "type": "image/png"
     },
     {
       "src": "icons/icon-96x96.png",
       "sizes": "96x96",
-      "type": "image/png",
-      "purpose": "maskable any"
+      "type": "image/png"
     },
     {
       "src": "icons/icon-128x128.png",
       "sizes": "128x128",
-      "type": "image/png",
-      "purpose": "maskable any"
+      "type": "image/png"
     },
     {
       "src": "icons/icon-144x144.png",
       "sizes": "144x144",
-      "type": "image/png",
-      "purpose": "maskable any"
+      "type": "image/png"
     },
     {
       "src": "icons/icon-152x152.png",
       "sizes": "152x152",
-      "type": "image/png",
-      "purpose": "maskable any"
+      "type": "image/png"
     },
     {
       "src": "icons/icon-192x192.png",
       "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "maskable any"
+      "type": "image/png"
     },
     {
       "src": "icons/icon-384x384.png",
       "sizes": "384x384",
-      "type": "image/png",
-      "purpose": "maskable any"
+      "type": "image/png"
     },
     {
       "src": "icons/icon-512x512.png",
       "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable any"
+      "type": "image/png"
     }
   ]
 }
