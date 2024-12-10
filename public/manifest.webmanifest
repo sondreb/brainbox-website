@@ -13,6 +13,16 @@
   },
   "shortcuts": [
     {
+      "name": "Apps",
+      "url": "/apps",
+      "icons": [
+        {
+          "src": "icons/icon-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
       "name": "Ariton",
       "url": "/apps/ariton",
       "icons": [
@@ -53,12 +63,52 @@
       ]
     },
     {
-      "name": "More apps...",
-      "url": "/apps",
+      "name": "Blur",
+      "url": "/apps/blur",
       "icons": [
         {
-          "src": "icons/icon-192x192.png",
-          "sizes": "192x192"
+          "src": "assets/icons/blur.png",
+          "sizes": "418x418"
+        }
+      ]
+    },
+    {
+      "name": "Daily",
+      "url": "/apps/daily",
+      "icons": [
+        {
+          "src": "assets/icons/daily.png",
+          "sizes": "256x256"
+        }
+      ]
+    },
+    {
+      "name": "Dreams",
+      "url": "/apps/dreams",
+      "icons": [
+        {
+          "src": "assets/icons/dreams.jpg",
+          "sizes": "512x512"
+        }
+      ]
+    },
+    {
+      "name": "Gaianet",
+      "url": "/apps/gaianet",
+      "icons": [
+        {
+          "src": "assets/icons/gaianet.png",
+          "sizes": "150x150"
+        }
+      ]
+    },
+    {
+      "name": "Moments",
+      "url": "/apps/moments",
+      "icons": [
+        {
+          "src": "assets/icons/moment.jpg",
+          "sizes": "512x512"
         }
       ]
     }
