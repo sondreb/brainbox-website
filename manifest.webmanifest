@@ -11,6 +11,108 @@
   "launch_handler": {
     "client_mode": ["focus-existing", "auto"]
   },
+  "shortcuts": [
+    {
+      "name": "Apps",
+      "url": "/apps",
+      "icons": [
+        {
+          "src": "icons/icon-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Ariton",
+      "url": "/apps/ariton",
+      "icons": [
+        {
+          "src": "assets/icons/ariton.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Blur",
+      "url": "/apps/blur",
+      "icons": [
+        {
+          "src": "assets/icons/blur.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Blockchain Social Network",
+      "url": "/apps/bsn",
+      "icons": [
+        {
+          "src": "assets/icons/bsn.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Daily",
+      "url": "/apps/daily",
+      "icons": [
+        {
+          "src": "assets/icons/daily.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Dreams",
+      "url": "/apps/dreams",
+      "icons": [
+        {
+          "src": "assets/icons/dreams.jpg",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Gaianet",
+      "url": "/apps/gaianet",
+      "icons": [
+        {
+          "src": "assets/icons/gaianet.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Moments",
+      "url": "/apps/moments",
+      "icons": [
+        {
+          "src": "assets/icons/moment.jpg",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Blockcore Notes",
+      "url": "/apps/notes",
+      "icons": [
+        {
+          "src": "assets/icons/notes.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Polytalk",
+      "url": "/apps/polytalk",
+      "icons": [
+        {
+          "src": "assets/icons/polytalk.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
   "icons": [
     {
       "src": "icons/icon-72x72.png",
