@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1733857350635,
+  "timestamp": 1733956052865,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -75,7 +75,7 @@
     "/assets/brainbox.png": "cd30644be82d61d3b059c68195850082f58c5f96",
     "/assets/brainbox.webp": "ba249236c0ea346df66647e83fe120599c0d17f7",
     "/assets/favicon.webp": "a32716ce1739f7c0e991cdf02c9226a64c9bacfe",
-    "/assets/icons/ariton.png": "fa0e3f3f37612bc32ed8de6be08b04e14ba09132",
+    "/assets/icons/ariton.png": "cfd8f8580ad974fe0de474856d03bbd8aba931ac",
     "/assets/icons/blur.png": "d89404d2d232eb3a08e68e52a0ca8d9e7b0ca8a3",
     "/assets/icons/bsn.png": "c4fbf6778a297e7283d6a85cbbcedcdd13d9b3c8",
     "/assets/icons/daily.png": "e8f146b69afa195a685373a6735b723106ab9323",
@@ -99,7 +99,7 @@
     "/icons/icon.png": "b2070761d5d4dc65896f036507c363cea481d9fe",
     "/index.html": "df0f90c10f0233e77ee6ca0e3afb2c61e2142d21",
     "/main-QA3XIMAY.js": "42c194966d2fcd3ea6753ac03ee5ae357d866853",
-    "/manifest.webmanifest": "6c6a8c24bbca5cbec8784fca06ac5d02c0dbc425",
+    "/manifest.webmanifest": "dfa276f624c6f97cac824a21b02449ce5ad985b8",
     "/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
     "/styles-5VQRNPMQ.css": "a74acefec12763fff61f314fa563119fc8c17a91"
   },
