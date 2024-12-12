@@ -6,12 +6,12 @@
 
 <div class="topic-view">
   @if (app.link) {
-  <a class="app-link mr" [href]="app.link" target="_blank"
+  <a class="app-link mr" [href]="app.link" rel="pwa-install"
     ><button>Open App</button></a
   >
   } @if (app.source) {
-   
-  <a class="app-link" [href]="app.source" target="_blank"
+
+  <a class="app-link" [href]="app.source"
     ><button class="light-button">Source</button></a
   >
   }
