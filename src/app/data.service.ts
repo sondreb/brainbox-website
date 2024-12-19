@@ -101,7 +101,7 @@ export class DataService {
       name: 'Map of Co-creators',
       icon: 'cocreators.png',
       description: 'Find other Co-creators globally with this map app',
-      tags: ['free', 'web', 'language'],
+      tags: ['free', 'web', 'map'],
       link: 'https://cocreators.brainbox.no',
       source: 'https://github.com/sondreb/co-creators-map',
     },
