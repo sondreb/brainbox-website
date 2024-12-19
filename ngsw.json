@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1734627338978,
+  "timestamp": 1734627741864,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -40,7 +40,7 @@
         "/assets/icons/ariton.png",
         "/assets/icons/blur.png",
         "/assets/icons/bsn.png",
-        "/assets/icons/cocreate.png",
+        "/assets/icons/cocreators.png",
         "/assets/icons/daily.png",
         "/assets/icons/dreams.jpg",
         "/assets/icons/gaianet.png",
@@ -79,7 +79,7 @@
     "/assets/icons/ariton.png": "cfd8f8580ad974fe0de474856d03bbd8aba931ac",
     "/assets/icons/blur.png": "d89404d2d232eb3a08e68e52a0ca8d9e7b0ca8a3",
     "/assets/icons/bsn.png": "c4fbf6778a297e7283d6a85cbbcedcdd13d9b3c8",
-    "/assets/icons/cocreate.png": "20141efcaab979faffee91ab945f0d9613f606ef",
+    "/assets/icons/cocreators.png": "20141efcaab979faffee91ab945f0d9613f606ef",
     "/assets/icons/daily.png": "e8f146b69afa195a685373a6735b723106ab9323",
     "/assets/icons/dreams.jpg": "01d46a4b2cf5ec1ce891fd7d857b80f98c61f85b",
     "/assets/icons/gaianet.png": "7b552a8fcc9b1a9ac4b3ac54c6ee1fcd1e473abb",
