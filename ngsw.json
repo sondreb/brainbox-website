@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1733996513715,
+  "timestamp": 1734627338978,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -12,7 +12,7 @@
       },
       "urls": [
         "/index.html",
-        "/main-GNNTPQ2T.js",
+        "/main-UTFHZSH4.js",
         "/manifest.webmanifest",
         "/polyfills-FFHMD2TL.js",
         "/styles-5VQRNPMQ.css"
@@ -40,6 +40,7 @@
         "/assets/icons/ariton.png",
         "/assets/icons/blur.png",
         "/assets/icons/bsn.png",
+        "/assets/icons/cocreate.png",
         "/assets/icons/daily.png",
         "/assets/icons/dreams.jpg",
         "/assets/icons/gaianet.png",
@@ -78,6 +79,7 @@
     "/assets/icons/ariton.png": "cfd8f8580ad974fe0de474856d03bbd8aba931ac",
     "/assets/icons/blur.png": "d89404d2d232eb3a08e68e52a0ca8d9e7b0ca8a3",
     "/assets/icons/bsn.png": "c4fbf6778a297e7283d6a85cbbcedcdd13d9b3c8",
+    "/assets/icons/cocreate.png": "20141efcaab979faffee91ab945f0d9613f606ef",
     "/assets/icons/daily.png": "e8f146b69afa195a685373a6735b723106ab9323",
     "/assets/icons/dreams.jpg": "01d46a4b2cf5ec1ce891fd7d857b80f98c61f85b",
     "/assets/icons/gaianet.png": "7b552a8fcc9b1a9ac4b3ac54c6ee1fcd1e473abb",
@@ -97,8 +99,8 @@
     "/icons/icon-72x72.png": "c77e7e433aa0a027388da5dca966c633ddbcae56",
     "/icons/icon-96x96.png": "8559dd26138c0bacbb75e2f8b322c0c2a24ff18e",
     "/icons/icon.png": "b2070761d5d4dc65896f036507c363cea481d9fe",
-    "/index.html": "a4423808b0e5078430552d20dcba346bc00fc064",
-    "/main-GNNTPQ2T.js": "c2252b355bc012aeb80c592c87c92aef0b5254ed",
+    "/index.html": "27a656d2169b22189b7208bb07adb31c3172cb68",
+    "/main-UTFHZSH4.js": "98e01694ef403ba622c434bb38e4b54f4b35c215",
     "/manifest.webmanifest": "dfa276f624c6f97cac824a21b02449ce5ad985b8",
     "/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
     "/styles-5VQRNPMQ.css": "a74acefec12763fff61f314fa563119fc8c17a91"
