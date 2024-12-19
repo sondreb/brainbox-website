@@ -97,6 +97,14 @@ export class DataService {
       link: 'https://polytalk.me',
       source: 'https://github.com/sondreb/polytalk',
     },
+    cocreators: {
+      name: 'Map of Co-creators',
+      icon: 'cocreators.png',
+      description: 'Find other Co-creators globally with this map app',
+      tags: ['free', 'web', 'language'],
+      link: 'https://cocreators.brainbox.no',
+      source: 'https://github.com/sondreb/co-creators-map',
+    },
   };
 
   constructor() {}
