@@ -105,6 +105,15 @@ export class DataService {
       link: 'https://cocreators.brainbox.no',
       source: 'https://github.com/sondreb/co-creators-map',
     },
+    people: {
+      name: 'People',
+      icon: 'people.png',
+      description:
+        "Wonderful app to keep your people's information in one place",
+      tags: ['free', 'web', 'organization'],
+      link: 'https://people.brainbox.no',
+      source: 'https://github.com/sondreb/people',
+    },
   };
 
   constructor() {}
