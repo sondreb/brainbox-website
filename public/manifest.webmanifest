@@ -112,6 +112,16 @@
           "sizes": "512x512"
         }
       ]
+    },
+    {
+      "name": "Nostria",
+      "url": "/apps/nostria",
+      "icons": [
+        {
+          "src": "assets/icons/nostria.jpg",
+          "sizes": "192x192"
+        }
+      ]
     }
   ],
   "icons": [
