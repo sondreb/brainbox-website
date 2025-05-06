@@ -114,6 +114,15 @@ export class DataService {
       link: 'https://people.brainbox.no',
       source: 'https://github.com/sondreb/people',
     },
+    nostria: {
+      name: 'Nostria',
+      icon: 'nostria.png',
+      description:
+        "Nostria is the easy way to experience Nostr. Effortless to start, beautifully simple to use, and designed for everyone—so you can connect, share, and explore the decentralized network with confidence.",
+      tags: ['free', 'paid', 'social'],
+      link: 'https://nostria.app',
+      source: 'https://github.com/nostria-app/nostria',
+    },
   };
 
   constructor() {}
