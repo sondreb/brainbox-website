@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1736457945262,
+  "timestamp": 1746522623236,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -12,7 +12,7 @@
       },
       "urls": [
         "/index.html",
-        "/main-4PVC7P6D.js",
+        "/main-IVAIZH3H.js",
         "/manifest.webmanifest",
         "/polyfills-FFHMD2TL.js",
         "/styles-5VQRNPMQ.css"
@@ -45,6 +45,7 @@
         "/assets/icons/dreams.jpg",
         "/assets/icons/gaianet.png",
         "/assets/icons/moments.jpg",
+        "/assets/icons/nostria.png",
         "/assets/icons/notes.png",
         "/assets/icons/people.png",
         "/assets/icons/polytalk.png",
@@ -85,6 +86,7 @@
     "/assets/icons/dreams.jpg": "01d46a4b2cf5ec1ce891fd7d857b80f98c61f85b",
     "/assets/icons/gaianet.png": "7b552a8fcc9b1a9ac4b3ac54c6ee1fcd1e473abb",
     "/assets/icons/moments.jpg": "b22b763acf17b3405e0dd2dcc24b20f141832c7d",
+    "/assets/icons/nostria.png": "cd3b759c7da81ecf65aa77549ce1a94c6d8c1dc7",
     "/assets/icons/notes.png": "617ea1052b5c3daaf74cb23f476a2d1229e5ede8",
     "/assets/icons/people.png": "f9a28b19ff209eeb646264f2e623157e8cf7313c",
     "/assets/icons/polytalk.png": "460081ec306b795a1a1e77e9207523f6d64df60d",
@@ -101,8 +103,8 @@
     "/icons/icon-72x72.png": "c77e7e433aa0a027388da5dca966c633ddbcae56",
     "/icons/icon-96x96.png": "8559dd26138c0bacbb75e2f8b322c0c2a24ff18e",
     "/icons/icon.png": "b2070761d5d4dc65896f036507c363cea481d9fe",
-    "/index.html": "ab59cbdbe8b2b41defdbb0be20e162e340e6f7e8",
-    "/main-4PVC7P6D.js": "7d33d3c15b4132e5ba9cca616667a36da16b6dc5",
+    "/index.html": "73d9f26c71889f1286b894b5b566471832ecc01b",
+    "/main-IVAIZH3H.js": "81b43a82f4405edf246b92ca1e76232196e1b6d3",
     "/manifest.webmanifest": "dfa276f624c6f97cac824a21b02449ce5ad985b8",
     "/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
     "/styles-5VQRNPMQ.css": "a74acefec12763fff61f314fa563119fc8c17a91"
