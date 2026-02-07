@@ -123,6 +123,15 @@ export class DataService {
       link: 'https://nostria.app',
       source: 'https://github.com/nostria-app/nostria',
     },
+    convert: {
+      name: 'Convert',
+      icon: 'convert.png',
+      description:
+        'A web app for converting and transcoding videos using ffmpeg.',
+      tags: ['free', 'web', 'video'],
+      link: 'https://convert.brainbox.no',
+      source: 'https://github.com/sondreb/convert',
+    },
   };
 
   constructor() {}
